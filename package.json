@@ -1,0 +1,37 @@
+{
+  "name": "chiefdelphi",
+  "version": "0.1.1",
+  "description": "An unofficial nodejs API for Chief Delphi",
+  "main": "./src/chiefdelphi.js",
+  "scripts": {
+    "test": "npm test ./examples/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nitroxplunge/chiefdelphi.git"
+  },
+  "keywords": [
+    "chief",
+    "delpgi",
+    "chief",
+    "delphi",
+    "api",
+    "chief",
+    "delphi",
+    "api",
+    "node",
+    "nodejs"
+  ],
+  "author": "Isaac Wilcove",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nitroxplunge/chiefdelphi/issues"
+  },
+  "homepage": "https://github.com/nitroxplunge/chiefdelphi#readme",
+  "dependencies": {
+    "events": "^1.1.1",
+    "https": "^1.0.0",
+    "jsdom": "^11.5.1",
+    "xml-js": "^1.6.1"
+  }
+}
