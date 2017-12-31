@@ -1,0 +1,8 @@
+node_modules
+docs
+jsdoc.json
+examples
+.travis.yml
+package-lock.json
+PULL_REQUEST_TEMPLATE.md
+out
