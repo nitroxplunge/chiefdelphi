@@ -7,3 +7,7 @@ var main = async function() {
 }
 
 main();
+
+cd.events.on('post', function(data) {
+    console.log(data);
+});

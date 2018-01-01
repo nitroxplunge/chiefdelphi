@@ -20,7 +20,7 @@ class Post {
             text: await this.getText(),
             poster: this.data.poster._text,
             time: this.data.when._text,
-            parentthread: this.data.threadid._text,
+            thread: this.data.threadid._text,
             subforum: this.data.forumname._text
         }
         return data;
@@ -37,7 +37,7 @@ class Post {
                     res.on('data', function(data) { html += data });
                     res.on('end', function() {
                         var dom = new JSDOM(html.toString());
-                        resolve(dom.window.document.querySelector("#post_message_" + id).textContent);
+                        resolve(dom.window.document.querySelector("#post_message_" + id).textContent.replace("\t", ""));
                     });
                 }
             });
